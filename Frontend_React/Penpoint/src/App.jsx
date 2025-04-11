@@ -5,7 +5,6 @@ import { motion } from "framer-motion";
 function App() {
 
   return (
-    /*
 <>
   <div className="min-h-screen p-10 box-border w-screen h-screen flex flex-col items-center justify-center">
     <div className="border-white border-4 md:border-8 w-full h-full box-border px-4 sm:px-10 md:px-40 border-radius" style={{borderRadius: '50px'}}>
@@ -30,9 +29,7 @@ function App() {
       </div>        
     </div>
   </div>
-</>*/
-
-<About/>
+</>
   )
 }
  

@@ -133,4 +133,29 @@ button:focus-visible {
     margin-top: 100px;
     margin-left:100px;
   }
+  .margin-bottom{
+    margin-bottom: 200px;
+  }
+  .padding-text{
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  .text-size{
+    font-size: 120px;
+  }
+  .landing-paragraph {
+    font-size: 36px;
+  }
+  .landing-mt-20 {
+    margin-top: calc(var(--spacing) * 28) /* 5rem = 80px */;
+}
+}
+
+.hide-scrollbar {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
 }
